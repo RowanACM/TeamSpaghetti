@@ -1,0 +1,4 @@
+Dark blue- 012c40
+light blue- 1ca5b8
+white/blue - daebf2
+red- ff404c
