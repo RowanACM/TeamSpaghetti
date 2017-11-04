@@ -2,4 +2,6 @@
     <string name="app_name">ACM_Spaghetti</string>
     <string name="action_settings">Settings</string>
     <string name="section_format">Hello World from section: %1$d</string>
+    <string name="splash_screen">Splash Screen</string>
+    <string name="button">Button</string>
 </resources>
