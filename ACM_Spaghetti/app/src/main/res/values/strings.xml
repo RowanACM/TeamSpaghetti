@@ -9,5 +9,9 @@
 
     <string name="todo">TODO</string>
     <string name="helped_make_app">Helped Make App</string>
+ Dan/add-splash-screen
+    <string name="title_activity_dan">DanActivity</string>
 
+
+master
 </resources>
