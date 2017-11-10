@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.patfo_000.acm_spaghetti.Profile"
+    tools:showIn="@layout/activity_profile">
+
+    <TextView
+        android:id="@+id/majorText"
+        android:layout_width="196dp"
+        android:layout_height="32dp"
+        android:text="Major:"
+        tools:layout_editor_absoluteX="170dp"
+        tools:layout_editor_absoluteY="65dp" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="123dp"
+        android:layout_height="132dp"
+        app:srcCompat="@mipmap/ic_launcher"
+        tools:layout_editor_absoluteX="29dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <TextView
+        android:id="@+id/gradYear"
+        android:layout_width="196dp"
+        android:layout_height="32dp"
+        android:text="GradYear:"
+        tools:layout_editor_absoluteX="170dp"
+        tools:layout_editor_absoluteY="118dp" />
+
+    <TextView
+        android:id="@+id/profName"
+        android:layout_width="196dp"
+        android:layout_height="32dp"
+        android:text="Name:"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="170dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <TextView
+        android:id="@+id/profDes"
+        android:layout_width="339dp"
+        android:layout_height="115dp"
+        android:text="Description"
+        tools:layout_editor_absoluteX="29dp"
+        tools:layout_editor_absoluteY="169dp" />
+
+</android.support.constraint.ConstraintLayout>
