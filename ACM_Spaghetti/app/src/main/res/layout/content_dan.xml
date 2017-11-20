@@ -12,42 +12,65 @@
         android:id="@+id/majorText"
         android:layout_width="196dp"
         android:layout_height="32dp"
-        android:text="Major:"
-        tools:layout_editor_absoluteX="170dp"
-        tools:layout_editor_absoluteY="65dp" />
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginTop="8dp"
+        android:text="Computer Science"
+        app:layout_constraintBottom_toTopOf="@+id/gradYear"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageView2"
+        app:layout_constraintTop_toBottomOf="@+id/profName" />
 
     <ImageView
         android:id="@+id/imageView2"
         android:layout_width="123dp"
         android:layout_height="132dp"
-        app:srcCompat="@mipmap/ic_launcher"
-        tools:layout_editor_absoluteX="29dp"
-        tools:layout_editor_absoluteY="16dp" />
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintEnd_toStartOf="@+id/majorText"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@mipmap/ic_launcher" android:contentDescription="TODO" />
 
     <TextView
         android:id="@+id/gradYear"
         android:layout_width="196dp"
         android:layout_height="32dp"
-        android:text="GradYear:"
-        tools:layout_editor_absoluteX="170dp"
-        tools:layout_editor_absoluteY="118dp" />
+        android:layout_marginBottom="44dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:text="2021"
+        app:layout_constraintBottom_toTopOf="@+id/profDes"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageView2" />
 
     <TextView
         android:id="@+id/profName"
         android:layout_width="196dp"
         android:layout_height="32dp"
-        android:text="Name:"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="Dan Sanchez"
         android:textSize="18sp"
         android:textStyle="bold"
-        tools:layout_editor_absoluteX="170dp"
-        tools:layout_editor_absoluteY="16dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageView2"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/profDes"
         android:layout_width="339dp"
         android:layout_height="115dp"
-        android:text="Description"
-        tools:layout_editor_absoluteX="29dp"
-        tools:layout_editor_absoluteY="169dp" />
+        android:layout_marginBottom="196dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="20dp"
+        android:text="I am currently a freshman at Rowan University and am studying computer science."
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginRight="8dp"
+        android:layout_marginLeft="20dp" />
 
 </android.support.constraint.ConstraintLayout>

@@ -37,7 +37,7 @@
                 android:layout_height="wrap_content"
                 android:layout_alignParentTop="true"
                 android:layout_toRightOf="@+id/person_photo"
-                android:text="Daniel Sanchez"
+                android:text="Dan Sanchez"
                 android:textSize="30sp"
                 android:visibility="visible" />
 
